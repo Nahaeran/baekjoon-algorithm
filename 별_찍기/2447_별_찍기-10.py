@@ -1,6 +1,5 @@
 n = int(input())
 
-
 def fractal_rectangle(num):
     if num == 1:
         return ["*"]
@@ -19,7 +18,6 @@ def fractal_rectangle(num):
         result.append(e * 3)
 
     return result
-
 
 # 출력
 rectangle = fractal_rectangle(n)
