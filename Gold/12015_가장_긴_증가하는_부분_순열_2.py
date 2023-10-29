@@ -29,4 +29,3 @@ for i in range(N):
         LIS[idx] = arr[i]
 
 print(len(LIS))
-print(*LIS)
